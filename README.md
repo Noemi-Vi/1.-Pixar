@@ -1,2 +1,2 @@
 # Practica-1-Pixar
- Práctica Pixar
+ Esta es la primera entrega de la Web de Pixar.
