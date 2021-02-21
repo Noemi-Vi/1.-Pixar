@@ -25,26 +25,26 @@ p a {
 li {
   list-style-type: none;
 }
-
 h1,
 h2,
 h3,
 h4,
 h5,
 h6 {
-  font: normal normal normal 140%/140% "Montserrat", sans-serif;
+  font: normal normal normal 140% / 140% "Montserrat", sans-serif;
   -webkit-hyphens: auto;
+  -ms-hyphens: auto;
   hyphens: auto;
   color: black;
 }
 
 body {
-  font: normal normal normal 140%/140% "Montserrat", sans-serif;
+  font: normal normal normal 140% / 140% "Montserrat", sans-serif;
   -webkit-hyphens: auto;
+  -ms-hyphens: auto;
   hyphens: auto;
   color: black;
 }
-
 .header {
   width: 100%;
   padding: 1em 0;
@@ -52,20 +52,18 @@ body {
   flex-flow: row nowrap;
   justify-content: center;
 }
-
 .header .centrado {
   width: 90%;
+
   display: flex;
   flex-flow: row nowrap;
   justify-content: space-between;
   align-items: center;
   align-content: initial;
 }
-
 .header .logo {
   width: 15%;
 }
-
 .header .nav {
   width: 100%;
   display: flex;
@@ -74,7 +72,6 @@ body {
   align-items: center;
   align-content: initial;
 }
-
 .header .ul {
   max-width: 700px;
   width: 80%;
@@ -83,21 +80,19 @@ body {
   justify-content: space-around;
   align-items: center;
   align-content: initial;
+
   font-size: 0.7em;
   text-transform: uppercase;
 }
-
 .main {
   display: flex;
   flex-flow: column nowrap;
   justify-content: center;
   align-items: center;
 }
-
 .fa-bars {
   display: none;
 }
-
 .soul {
   width: 100%;
   height: 100vh;
@@ -110,11 +105,9 @@ body {
   align-items: center;
   align-content: initial;
 }
-
 .soul .img-soul {
   width: 50%;
 }
-
 .main .windows {
   width: 90%;
   padding: 6em 0;
@@ -124,7 +117,6 @@ body {
   align-items: center;
   align-content: initial;
 }
-
 .main .section {
   width: 100%;
   padding: 0 0.8em;
@@ -134,14 +126,12 @@ body {
   align-items: center;
   align-content: initial;
 }
-
 .main .h2 {
   font-size: 0.6em;
   font-weight: 700;
   text-align: center;
   letter-spacing: 0.3em;
 }
-
 .main .img {
   width: 100%;
   margin-bottom: 1em;
@@ -176,7 +166,6 @@ body {
   align-items: center;
   align-content: initial;
 }
-
 .footer .copy {
   width: 100%;
   padding: 1em 0;
@@ -191,7 +180,6 @@ body {
   justify-content: center;
   text-decoration: underline;
 }
-
 .footer .a {
   letter-spacing: 0.2em;
 }
@@ -200,7 +188,6 @@ body {
   .nav {
     display: none;
   }
-
   .fa-bars {
     display: flex;
   }
@@ -209,33 +196,28 @@ body {
     display: none;
   }
 }
+
 @media (max-width: 780px) {
   .header .logo {
     width: 22%;
   }
-
   .main .windows {
     width: 100%;
     padding: 3em 0;
     flex-flow: row wrap;
   }
-
   .soul .img-soul {
     width: 90%;
   }
-
   .main .img {
     margin-bottom: 0;
   }
-
   .main .h2 {
     padding: 2.5em;
   }
-
   .footer .rrss {
     padding: 0.5em 0 2.5em;
   }
-
   .footer .enlaces {
     width: 95%;
   }
