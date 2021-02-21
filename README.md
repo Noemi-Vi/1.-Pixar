@@ -1,4 +1,4 @@
-# Practica-1-Pixar 📄
+# 1.-Pixar 📄
 Primera práctica del curso de Desarrolladora Web Junior de Bejob y Women4it.
 
 ## Profesor
